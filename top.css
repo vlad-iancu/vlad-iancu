@@ -1,0 +1,84 @@
+html { 
+  background: url(images/wallpaper.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper {
+	width: calc(100% - 64px);
+	height: calc(100vh - 48px);
+	margin: 24px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+
+	/*
+	border-radius: 16px 16px 16px 16px;
+	box-shadow: 0px 0px 10px black;
+	*/
+	padding: 5px;
+	/*
+	font-family: Lora;
+	*/
+}
+.header {
+	font-weight: normal;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-family: 'Lora';
+	color: white;
+	text-shadow: 0px 0px 5px black;
+}
+.subheader {
+	font-weight: normal;
+	color: white;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-family: 'Lora';
+	text-shadow: 0px 0px 5px black;
+}
+.title {
+	font-size: 2em;
+}
+
+.content {
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 5px black;
+	flex-grow: 1;
+	background-color: white;
+	opacity: 0.8;
+	padding: 5px;
+	font-family: 'Open Sans';
+}
+
+.education-header {
+	font-family: 'Open Sans';
+	font-size: 2em;
+	font-weight: bold;
+	color: black;
+}
+.uni-logo {
+	border-radius: 5px;
+}
+.education {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.3em;
+	width: 100%;
+	margin-top: -40px;
+}
+/*
+.nav {
+	background-color: red;
+	width: 100%;
+	height: 48px;
+	border-radius: 4px 4px 4px 4px;
+
+}
+*/
