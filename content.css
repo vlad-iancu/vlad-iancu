@@ -1,0 +1,22 @@
+.work-container {
+	margin-left: 32px;
+	width: 80%;
+
+}
+.work-item::before {
+	content: "";
+	background: black;
+	width: 4px;
+	height: 4px;
+	border-radius: 2px;
+	margin-right: 5px;
+	display: inline-block;
+	
+}
+.work-item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+
+}

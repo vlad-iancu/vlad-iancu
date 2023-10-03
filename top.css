@@ -55,7 +55,7 @@ html {
 	font-family: 'Open Sans';
 }
 
-.education-header {
+.section-header {
 	font-family: 'Open Sans';
 	font-size: 2em;
 	font-weight: bold;
@@ -72,6 +72,9 @@ html {
 	font-size: 1.3em;
 	width: 100%;
 	margin-top: -40px;
+}
+#education-text {
+	justify-self: flex-start;
 }
 /*
 .nav {
